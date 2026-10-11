@@ -1,0 +1,23 @@
+name: Feature request
+description: Got an idea? Pitch it like a human.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem is this solving?
+      placeholder: As someone reading a rental contract, I get stuck on…
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      placeholder: A plain-language summary of…
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Any context? (which screen, mockups, examples)
+      placeholder: On the results screen…

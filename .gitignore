@@ -30,8 +30,14 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
+# local env files (example stays committed as docs)
+.env
 .env*.local
+# NOTE: never commit real secrets — copy .env.example to .env locally
+
+# tests / coverage
+coverage/
+junit.xml
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +45,4 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+.superdesign/tmp/

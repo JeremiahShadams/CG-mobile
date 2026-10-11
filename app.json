@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CG-Mobile-tmp",
-    "slug": "CG-Mobile-tmp",
+    "name": "ContractGuard",
+    "slug": "contractguard",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "cgmobiletmp",
+    "scheme": "contractguard",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true
@@ -29,11 +29,12 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/splash-shield.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#0B1524"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
